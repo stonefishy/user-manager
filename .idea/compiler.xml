@@ -22,7 +22,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="user-manager-rest" />
+        <module name="user-manager-db" />
+        <module name="user-manager-restful" />
       </profile>
     </annotationProcessing>
   </component>
