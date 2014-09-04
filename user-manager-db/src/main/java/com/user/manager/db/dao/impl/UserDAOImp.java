@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
  * Created by yushi on 9/4/14.
  */
 @Repository
-public class UserDAOImple implements IUserDAO {
+public class UserDAOImp implements IUserDAO {
     @Autowired
     private SessionFactory sessionFactory;
 
